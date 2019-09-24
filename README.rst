@@ -32,26 +32,41 @@ ECoG, and more. It includes modules for data input/output, preprocessing,
 visualization, source estimation, time-frequency analysis, connectivity analysis,
 machine learning, and statistics.
 
+“MNE-Python软件”_是一个开源为探索Python包,
+可视化和分析人类的神经生理学数据如梅格,脑电图,sEEG,
+ECoG等等。它包括数据输入/输出模块、预处理,
+可视化、源估计、时频分析、连通性分析,
+机器学习和统计数据。
 
 Documentation
 ^^^^^^^^^^^^^
 
 `MNE documentation`_ for MNE-Python is available online.
 
+“外资企业文档”_ MNE-Python网上。
 
 Installing MNE-Python
 ^^^^^^^^^^^^^^^^^^^^^
 
 To install the latest stable version of MNE-Python, you can use pip_ in a terminal:
 
+MNE-Python安装最新的稳定版本,您可以使用pip_终端:
+
 .. code-block:: bash
 
     pip install -U mne
+
+    我目前安装的已经是最新的了
 
 **Note** that MNE-Python 0.17 will be the last release to support Python 2. From MNE-Python 0.18, only Python 3 will be supported.
 
 For more complete instructions and more advanced installation methods (e.g. for
 the latest development version), see the `getting started page`_.
+
+* *注意* * MNE-Python 0.17将是最后一个版本支持Python 2。从MNE-Python 0.18,只支持Python 3。
+
+更完整的说明和更高级的安装方法(例如
+最新的开发版本),请参见_开始页面。
 
 
 Get the latest code
