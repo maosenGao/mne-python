@@ -9,11 +9,20 @@ individually, resulting in an :class:`mne.Evoked` object which contains the
 regression coefficient (beta value) for each combination of sensor and
 timepoint. This example shows the regression coefficient; the t and p values
 are also calculated automatically.
+从一个连续变量预测单个试验活动。
+对每个传感器和时间点分别进行单次试验回归，得到:class:mne。
+诱发电位包含传感器和时间点的各组合的回归系数(贝塔值)。
+这个例子显示了回归系数;
+t和p值也自动计算。
 
 Here, we repeat a few of the analyses from [1]_. This can be easily performed
 by accessing the metadata object, which contains word-level information about
 various psycholinguistically relevant features of the words for which we have
 EEG activity.
+
+在这里，我们重复一些来自[1]_的分析。
+这很容易通过访问元数据对象来实现，
+元数据对象包含关于我们有脑电图活动的单词的各种心理语言学相关特征的单词级信息。
 
 For the general methodology, see e.g. [2]_.
 

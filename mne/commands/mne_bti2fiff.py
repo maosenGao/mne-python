@@ -11,6 +11,10 @@ Notes
    E63, E63 for the EOG channels. Pleas check and adjust if those channels
    are present in your dataset but 'ECG 01' and 'EOG 01', 'EOG 02' don't
    appear in the channel names of the raw object.
+   
+  2. 4D名称的知情猜测为ECG通道E31,
+    EOG通道E63、E63。请检查和调整这些通道是否存在于您的数据集中，
+    但“ECG 81”和“EOG 01”、“EOG 02”没有出现在原始对象的通道名称中。
 
 Examples
 --------

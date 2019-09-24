@@ -1,6 +1,7 @@
 """
 ==================================================
 Compute a cross-spectral density (CSD) matrix
+计算一个跨谱密度矩阵
 ==================================================
 
 A cross-spectral density (CSD) matrix is similar to a covariance matrix, but in
@@ -28,6 +29,9 @@ print(__doc__)
 # In the following example, the computation of the CSD matrices can be
 # performed using multiple cores. Set ``n_jobs`` to a value >1 to select the
 # number of cores to use.
+#在下面的例子中，csD矩阵的计算可以使用多个核来执行。
+# 将njobs设置为一个值>1，以选择要使用的内核数量。
+
 n_jobs = 1
 
 ###############################################################################

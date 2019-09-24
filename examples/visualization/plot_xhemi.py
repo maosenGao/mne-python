@@ -8,6 +8,10 @@ This example illustrates how to visualize the difference between activity in
 the left and the right hemisphere. The data from the right hemisphere is
 mapped to the left hemisphere, and then the difference is plotted. For more
 information see :func:`mne.compute_source_morph`.
+
+这个例子演示了如何可视化左半球和右半球活动之间的差异。
+将右半球的数据映射到左半球，然后绘制差值。
+有关更多信息，请参见:func:mne .compute source morph
 """
 # Author: Christian Brodbeck <christianbrodbeck@nyu.edu>
 #
